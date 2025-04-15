@@ -1,11 +1,14 @@
 import Image from "next/image";
-import Navbar from "./components/Navbar";
-export default function Home() {
+
+export const metadata = {
+  title: "Login - Smart+CARD",
+};
+export default function Login() {
   return (
     <>
     <main>
     {/* Layout */}
-    {/* <section className="py-6 px-8 w-full"> 
+    <section className="py-6 px-8 w-full"> 
       <div className="mx-auto px-3 w-1/4 h-full text-left">
         <h1 className=" text-black text-[19px] font-medium font-bold">Log  <span className="">in</span>
         </h1>
@@ -14,10 +17,10 @@ export default function Home() {
 
         <div className="">
           <form action="" className="max-width mx-auto pb-3">
-            <h3 className="font-semibold text-xs pb-2">Email</h3>
+            <label className="font-semibold block text-xs pb-2">Email</label>
             <input type="email" placeholder="e.g example@gmail.com" className="rounded-xl border px-4 py-2 w-full"/>
 
-            <h3 className="font-semibold text-xs pt-5 pb-2">Password</h3>
+            <label className="font-semibold text-xs block pt-5 pb-2">Password</label>
             <input type="password" placeholder="***************" className="rounded-xl border px-4 py-2 w-full"/>
           </form>
         </div>
@@ -29,13 +32,12 @@ export default function Home() {
           <div className="text-center mx-auto px-3 w-1/4 h-full">
               <button className="w-full text-xs bg-black rounded-lg py-2 text-white"><a href="#">Log in</a></button>
               <div className="p-8">
-              <p className=" text-xs p-4">Don&apost have an account? <span className="font-bold"><a href="#">Register</a></span></p>
+              <p className=" text-xs p-4">Dont&apos;t have an account? <span className="font-bold"><a href="#">Register</a></span></p>
               </div>
           </div>
 
-    </section> */}
+    </section>
     </main>
-    
-    </>
-  );
-}
+    </> 
+    );
+};
