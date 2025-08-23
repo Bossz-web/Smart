@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 export const metadata = {
-  title: "Email sent - Smart+CARD",
+  title: "Email sent",
 };
 export default function EmailSent() {
   return (
@@ -15,7 +15,7 @@ export default function EmailSent() {
       </div>
       <div className=""> 
       <h2 className="text-center text-[20px] font-medium py-3">Email sent</h2>
-          <p className="text-xs">We've successfully sent a LINK to your email. Please <br /> check your email to complete your KYC verification</p>
+          <p className="text-xs">We&apos;ve successfully sent a link to your email. Please <br /> check your email to complete your KYC verification</p>
       </div>
       </section>
     </main>

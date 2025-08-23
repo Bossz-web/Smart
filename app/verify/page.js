@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 export const metadata = {
-  title: "Verify - Smart+CARD",
+  title: "Verify",
 };
 export default function Verify() {
   return (
@@ -21,7 +21,7 @@ export default function Verify() {
         </div>
       </div>
           <div className="text-center mx-auto px-3 w-1/4 h-full">
-              <button className="w-full text-xs bg-black rounded-lg py-2 text-white"><a href="#">Confirm</a></button>
+              <button className="w-full text-xs bg-black rounded-lg py-2 text-white"><a href="email-sent">Confirm</a></button>
               <div className="p-8">
               <p className=" text-xs p-4">Don&apos;t receive a code? <span className="font-bold"><a href="#">Resend in 00:59</a></span></p>
               </div>

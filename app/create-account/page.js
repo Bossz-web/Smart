@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 export const metadata = {
-  title: "CreateAccount - Smart+CARD",
+  title: "CreateAccount",
 };
 export default function CreateAccount() {
   return (

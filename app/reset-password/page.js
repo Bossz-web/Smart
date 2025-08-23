@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 export const metadata = {
-  title: "Reset password - Smart+CARD",
+  title: "Reset password",
 };
 export default function ResetPassword() {
   return (
@@ -25,14 +25,8 @@ export default function ResetPassword() {
         </div>
         </div>
       </div>
-          {/* <div className="text-right mx-auto px-3 w-1/4 h-full">
-            <p className="py-3 pb-4 text-xs font-medium"><a href="#">Need help with password?</a></p>
-          </div> */}
           <div className="text-center mx-auto pt-6 px-3 w-1/4 h-full">
               <button className="w-full text-xs bg-black rounded-lg py-3 text-white"><a href="#">Reset</a></button>
-              {/* <div className="p-8">
-              <p className=" text-xs p-4">Don&apost have an account? <span className="font-bold"><a href="#">Register</a></span></p>
-              </div> */}
           </div>
 
     </section>
