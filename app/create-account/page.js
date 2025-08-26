@@ -1,3 +1,4 @@
+
 import Image from "next/image";
 
 export const metadata = {
@@ -29,7 +30,7 @@ export default function CreateAccount() {
       <div className="mx-auto px-3 w-full h-full text-left">
         <div className="text-xs">
         <div className="">
-          <form action="" className="max-width mx-auto pb-5">
+          <form action="" className="max-width mx-auto pb-3">
             <label className="font-semibold block text-xs pb-2">Email</label>
             <input type="email" placeholder="e.g example@gmail.com" className="rounded-xl border px-4 py-2 w-full"/>
 
